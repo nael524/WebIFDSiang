@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>     
+    <table>
+        { 
+          width:50%;
+          border-collapse:collapse;
+        }
+        th,td{
+            border:2px solid rgb(0, 0, 0);
+            padding:0px;
+            text-align:center;
+        }
+        th.Keterangan,td.Keterangan{
+            text-align: center;
+            font-weight: normal; 
+        }
+        th.konten,td.konten{
+            text-align:left;
+        }
+        th.text,td.text{
+            max-width: 300px;
+            text-align: justify;
+        }
+        .text-container {
+         max-width: 300px; /* Batasi lebar teks */
+       text-align: justify;
+        }     
+               
+        th{
+            background-color:rgb(255, 255, 255);
+        }
+    </table>
+</style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Audio</th>
+            <th>Vidio</th>
+            <th>Image</th>
+            <th>Keterangan</th>           
+        </tr>
+        <tr>
+           <th><audio controls><source src="https://www.w3schools.com/html/mov_bbb.mp4" type="audio/mpeg"></audio></th>
+           <th><iframe width="320" height="240\" src="https://www.youtube.com/embed/mWXrM-OKBNQ" frameborder="0" allowfullscr een></iframe> </th>
+            <th class="image"><img src=" https://pmb.satyaterrabhinneka.ac.id/img/logo_navbar.3b40e453.png" alt="Universitas Satya Terra Bhinneka"></th>
+           <th class="Keterangan">Nama:Natanael Hasonangan Sibagariang <br>
+            Alamat:Jalan Kawat 3<br>NIM:2403310164<br>Kelas:IF D SIANG<br>Tgl/lahir:Medan 26 September 2006<br>
+            Hobi:Badminton<br>Jenis Kelamin:Laki-Laki<br>Golongan Darah:B<br>Tujuan:Menjadi Yang Terbaik </th>  
+        </tr>
+        <tr>
+            <th colspan="2">Video</th>
+            <th colspan="2" >Konten</th>
+        </tr>   
+        <tr >
+            <th colspan="2" class="konten"><video width="500" height="340" controls><source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"> </video>
+                <br><p> ANIMASI KARTUN BIG BUG BUNNY LUCU SEPANJANG MASA 2008 LUCU!!!&#x1F929 &#x1F929  </p>
+                </th>
+            <th colspan="1" class="konten" ><iframe width="623" height="200\" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscr een></iframe>  
+                <br><iframe width="623" height="200"  src="https://www.youtube.com/embed/41RNH5od7XQ" frameborder="0" allowfullscreen></iframe>
+                </th>
+            <th> ANIMASI BIG BUG BUNNY LUCU SEPANJANG MASA 2008 YEYY&#x1F929 <br><br><br><br><br><br><br><br><br><br><br><br>Masha dan Beruang 🎉👧 Episode Baru 📸🌹 Bilang Cheese 👰💍 Episode Spesial 👩‍❤️‍👨 Koleksi kartun 🎬</th>  
+        </tr>
+        
+    </table>
+</body>
+</html>
