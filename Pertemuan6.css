@@ -1,0 +1,59 @@
+.background {
+  background-color: #4caf50;
+  width: 400px;
+  height: 690px;
+  border-radius: 8px;
+  margin-left: 550px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+}
+.backbelakang {
+  background: linear-gradient(to bottom, #66cc66, #99ff99);
+  width: 1430px;
+  height: 690px;
+}
+.nama {
+  font-size: 10px;
+}
+
+.input-container {
+  width: 90%;
+  max-width: 500px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.input-container input {
+  width: 100%;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+.input-container input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+.Jenis {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submit-btn {
+  width: 30%;
+  padding: 10px;
+  background: #4caf50;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.submit-btn:hover {
+  background: #e0e0e0;
+}
