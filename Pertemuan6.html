@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--- panggil css -->
+    <link rel="stylesheet" href="Pertemuan6.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="backbelakang">
+      <div class="background">
+        <b
+          ><br />
+          SILAHKAN ISI DATA ANDA</b
+        >
+        <div class="nama">
+          <form>
+            <div class="input-container">
+              <input type="text" placeholder="First name" />
+            </div>
+            <br />
+            <div class="input-container">
+              <input type="text" placeholder="Middle name" />
+            </div>
+            <br />
+            <div class="input-container">
+              <input type="text" placeholder="Last name" required />
+            </div>
+            <div class="input-container">
+              <input type="date" placeholder="Date" required />
+            </div>
+            <p class="Jenis">
+              Jenis Kelamin
+              <label
+                ><input
+                  type="radio"
+                  name="jenis_kelamin"
+                  value="Laki-Laki"
+                />Laki-Laki</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="jenis_kelamin"
+                  value="wanita"
+                />Perempuan</label
+              >
+            </p>
+            <div class="input-container">
+              <input type="text" placeholder="Tempat Tinggal" required />
+            </div>
+            <div class="input-container">
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="input-container">
+              <input type="text" placeholder="Phone" required />
+            </div>
+            <div class="input-container">
+              <input type="password" placeholder="Password" required />
+            </div>
+            <br />
+            <button type="submit" class="submit-btn">REGISTER</button><br />
+            <button class="submit-btn" onclick="history.back()">Back</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
