@@ -1,0 +1,44 @@
+.No1 {
+  text-align: center;
+  background-color: blue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  border-radius: 8px;
+}
+.NO2 {
+  margin-top: 15px;
+  text-align: center;
+  background-color: darkgoldenrod;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  border-radius: 8px;
+  padding: auto;
+}
+.Menu {
+  font-size: 20px;
+  background-color: blue;
+  width: 180px;
+  border-radius: 8px;
+  margin-top: 10px;
+  height: 180px;
+  margin-left: 600px;
+  text-align: center;
+}
+.Menu a:hover {
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+.Menu a {
+  color: white;
+  text-decoration: none;
+  padding: 4px 4px;
+}
+.No3 {
+  background-color: darkgoldenrod;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  text-align: justify;
+  padding: 30px;
+}
