@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .css {
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      justify-items: center;
+      align-content: center;
+      margin-top: 250px;
+      background-color: dodgerblue;
+      width: 400px;
+      height: 200px;
+      margin-left: 520px;
+      border-radius: 10px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      box-shadow: 50px solid black;
+    }
+    button {
+      margin-top: 30px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+    }
+    input {
+      text-align: center;
+      font-weight: bold;
+      width: 300px;
+    }
+  </style>
+  <body>
+    <div class="css">
+      <form action="#">
+        <input
+          type="number"
+          id="konversi"
+          placeholder="Masukan Angka Yang Anda Ingin Konversikan"
+        /><br />
+        <button onclick="hitung()">KONVERSI</button>
+      </form>
+      <p id="hasil"></p>
+      <script>
+        function hitung() {
+          let input = document.getElementById("konversi").value.trim();
+          let angka = parseInt(input);
+
+          if (!isNaN(angka)) {
+            alert(
+              "Biner : " +
+                angka.toString(2) +
+                "\nOktal : " +
+                angka.toString(8) +
+                "\nHeksadesimal : " +
+                angka.toString(16).toUpperCase()
+            );
+          } else {
+            alert(
+              "Maaf, angka yang Anda masukkan kurang benar. Terima kasih :)"
+            );
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
